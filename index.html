@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>КВИЗ</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <section class="content">
+        <div class="content__text">
+          <h1>Подберём вуз мечты</h1>
+          <p>Ответьте на несколько простых вопросов, и мы составим список наболее подходящих для вас вузов</p>
+        </div>
+        <div class="content__img">
+          <img src="./svg/hero.svg" alt="Подберём вуз мечты" />
+          <div class="content__img--btnWhite">Бесплатно</div>
+          <div class="content__img--btnOpacity">за 30 секунд</div>
+        </div>
+      </section>
+
+      <div class="quiz" id="quiz">
+        <div class="quiz__header" id="quiz__header">
+          <h2 class="quiz__title">Загружаем вопрос..</h2>
+        </div>
+        <ul class="quiz__list" id="quiz__list">
+          <li></li>
+        </ul>
+
+        <button id="quiz__submit" class="quiz__submit">Ответить</button>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
